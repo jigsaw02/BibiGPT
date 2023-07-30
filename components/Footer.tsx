@@ -18,42 +18,42 @@ export default function Footer() {
         </a>
         and{' '}
         <a
-          href="https://vercel.com/"
+          href="https://openai.com/"
           target="_blank"
           rel="noreferrer"
           className="font-bold underline-offset-2 transition hover:text-pink-400 hover:underline"
         >
-          Vercel Edge Functions.
+            Openai Edge Functions.
         </a>
       </div>
       <div className="flex items-center space-x-1">
         <Link href="/privacy" className="group" aria-label="隐私声明">
           Privacy Statement
         </Link>
-        <Link href="https://twitter.com/Jimmy_JingLv" className="group" aria-label="JimmyLv on Twitter">
-          <div
-            className={buttonVariants({
-              size: 'sm',
-              variant: 'ghost',
-              className: 'text-slate-700 dark:text-slate-400',
-            })}
-          >
-            <Icons.twitter className="h-5 w-5 fill-current" />
-            <span className="sr-only">Twitter</span>
-          </div>
-        </Link>
-        <Link href="https://github.com/JimmyLv" className="group" aria-label="JimmyLv on GitHub">
-          <div
-            className={buttonVariants({
-              size: 'sm',
-              variant: 'ghost',
-              className: 'text-slate-700 dark:text-slate-400',
-            })}
-          >
-            <Icons.gitHub className="h-5 w-5" />
-            <span className="sr-only">GitHub</span>
-          </div>
-        </Link>
+        {/*<Link href="https://twitter.com/" className="group" aria-label="JimmyLv on Twitter">*/}
+        {/*  <div*/}
+        {/*    className={buttonVariants({*/}
+        {/*      size: 'sm',*/}
+        {/*      variant: 'ghost',*/}
+        {/*      className: 'text-slate-700 dark:text-slate-400',*/}
+        {/*    })}*/}
+        {/*  >*/}
+        {/*    <Icons.twitter className="h-5 w-5 fill-current" />*/}
+        {/*    <span className="sr-only">Twitter</span>*/}
+        {/*  </div>*/}
+        {/*</Link>*/}
+        {/*<Link href="https://github.com/JimmyLv" className="group" aria-label="JimmyLv on GitHub">*/}
+        {/*  <div*/}
+        {/*    className={buttonVariants({*/}
+        {/*      size: 'sm',*/}
+        {/*      variant: 'ghost',*/}
+        {/*      className: 'text-slate-700 dark:text-slate-400',*/}
+        {/*    })}*/}
+        {/*  >*/}
+        {/*    <Icons.gitHub className="h-5 w-5" />*/}
+        {/*    <span className="sr-only">GitHub</span>*/}
+        {/*  </div>*/}
+        {/*</Link>*/}
         <ModeToggle />
       </div>
     </footer>

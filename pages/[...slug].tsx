@@ -92,7 +92,7 @@ export const Home: NextPage<{
       // https://www.bilibili.com/video/av352747000
       // todo: b23.tv url with title
       // todo: any article url
-      !(videoUrl.includes('bilibili.com/video') || videoUrl.includes('youtube.com'))
+      !(videoUrl.includes('bilibili.com/video') || videoUrl.includes('youtube.com') || videoUrl.includes('/summary'))
     ) {
       toast({
         title: '暂不支持此视频链接',

@@ -21,11 +21,11 @@ services:
       - 3000:3000
 
   #  Service 2> Development environment image
-  bibigpt-dev:
-    build:
-      context: ./
-      dockerfile: dev.Dockerfile
-    container_name: bibigpt-dev
-    ports:
-      - 3002:3000
-    env_file: .env
+  # bibigpt-dev:
+  #   build:
+  #     context: ./
+  #     dockerfile: dev.Dockerfile
+  #   container_name: bibigpt-dev
+  #   ports:
+  #     - 3002:3000
+  #   env_file: .env

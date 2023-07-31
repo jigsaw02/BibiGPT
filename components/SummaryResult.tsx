@@ -31,7 +31,7 @@ export function SummaryResult({
     : summary
 
   const { summaryArray, formattedSummary } = formatSummary(formattedCachedSummary)
-  const summaryNote = formattedSummary + '\n\n#GPT-4.0 一键总结 https://gptx.chatgptten.com/ @重构之美 \nBy1y1Q7Ux'
+  const summaryNote = formattedSummary + '\n\n#GPT-4.0 一键总结 https://gpt.naixuejiaoyu.com/ @重构之美 \nBy1y1Q7Ux'
 
   const handleCopy = () => {
     if (!isSecureContext) {

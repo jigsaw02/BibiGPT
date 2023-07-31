@@ -47,7 +47,7 @@ export function ActionsAfterResult({
       {!hasNoteSetting ? (
         <Link
           className="flex w-44 cursor-pointer items-center justify-center rounded-lg bg-green-400 px-2 py-1 text-center font-medium text-white hover:bg-green-400/80"
-          href="/user/integration"
+          href="/"
           target="_blank"
         >
           📒 一键保存到笔记

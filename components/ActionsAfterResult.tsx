@@ -50,7 +50,7 @@ export function ActionsAfterResult({
           href="/"
           target="_blank"
         >
-          📒 一键保存到笔记
+          📒 回到首页
         </Link>
       ) : (
         <>
